@@ -1,0 +1,54 @@
+{
+  "name": "use-redux-slice",
+  "version": "0.1.0",
+  "description": "React hook for binding to redux toolkit slice",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "scripts": {
+    "start": "zx scripts/start.mjs"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "reduxtoolkit",
+    "slice"
+  ],
+  "homepage": "https://github.com/guillaumejasmin/use-redux-slice",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guillaumejasmin/use-redux-slice.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Guillaume JASMIN",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^18.3.9",
+    "babel-jest": "^29.7.0",
+    "inquirer": "^11.0.2",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.1",
+    "react": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1",
+    "zx": "^8.1.8"
+  },
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^2",
+    "react": ">= 16.3.0 || < 19",
+    "react-redux": ">= 6 || < 10"
+  }
+}
